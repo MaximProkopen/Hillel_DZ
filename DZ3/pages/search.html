@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>AVTOMAG</h1>
+        <form action="registration.html">
+            <p><input type="submit" value="Регистрация"></p>
+        </form>
+        <form action="avtorization.html">
+            <p><input type="submit" value="Авторизация"></p>
+        </form>
+    </header>
+
+    <form name="forma_for_search">
+
+        <table border="0" cellspacing="5" cellpadding="5">
+
+            <caption><strong>Поиск</strong></caption>
+
+        <div><label>Цвет</label>
+            <select>
+                <option selected disabled>Выберете цвет</option>
+                <option value="c2">Красный</option>
+                <option value="c3">Синий</option>
+                <option value="c4">Черный</option>
+                <option value="c5">Белый</option>
+                <option value="c6">Желтый</option>
+                <option value="c7">Оранжевый</option>
+                <option value="c8">Серый</option>
+            </select>
+        </div>
+
+
+            <tr>
+                <td><label>Тип кузова</label></td>
+                <td><select>
+                        <option selected disabled>Выберете тип кузова</option>
+                        <option value="r2">Седан</option>
+                        <option value="r3">Внедорожник</option>
+                        <option value="r4">Купе</option>
+                        <option value="r5">Кабриолет</option>
+                        <option value="r6">Хечбек</option>
+                        <option value="r7">Универсал</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Марка авто</label></td>
+                <td><select>
+                        <option selected disabled>Выберете марку</option>
+                        <option value="r2">FORD</option>
+                        <option value="r3">MAZDA</option>
+                        <option value="r4">NISSAN</option>
+                        <option value="r5">TOYOTA</option>
+                        <option value="r6">MERCEDES-BENZ</option>
+                        <option value="r7">BMW</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label>Страна производитель</label></td>
+                <td><select>
+                        <option selected disabled>Выберете страну</option>
+                        <option value="r2">США</option>
+                        <option value="r3">Япония</option>
+                        <option value="r4">Германия</option>
+                        <option value="r5">Корея</option>
+                        <option value="r6">Китай</option>
+                        <option value="r7">Италия</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label>Цена (от и до)</label></td>
+                <td><input type="number" id="price_range_from" name="quantity" min="0" max="10000" step="100">
+                    <input type="number" id="price_range_to" name="quantity" min="0" max="10000" step="100">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Год выпуска (от и до)</label></td>
+                <td><input type="number" id="year_of_car_from" name="quantity" min="1950" max="2022" step="1">
+                    <input type="number" id="year_of_car_to" name="quantity" min="1950" max="2022" step="1"
+                        value="2022">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Состояние</label></td>
+                <td>
+                    <p><input name="condition" type="radio">Без повреждений</p>
+                    <p><input name="condition" type="radio">Не на ходу</p>
+                    <p><input name="condition" type="radio">"Требует ремонта"</p>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Тип топлива</label></td>
+                <td>
+                    <p><input name="fuel_type" type="checkbox">Дизель</p>
+                    <p><input name="fuel_type" type="checkbox">Бензин</p>
+                    <p><input name="fuel_type" type="checkbox">Електро</p>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Тип коробки передач</label> </td>
+                <td>
+                    <p><input name="transmission" type="checkbox">Механика/Ручная</p>
+                    <p><input name="transmission" type="checkbox">Автомат</p>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Цвет</label></td>
+                <td><select>
+                        <option selected disabled>Выберете цвет</option>
+                        <option value="c2">Красный</option>
+                        <option value="c3">Синий</option>
+                        <option value="c4">Черный</option>
+                        <option value="c5">Белый</option>
+                        <option value="c6">Желтый</option>
+                        <option value="c7">Фиолетовый</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label>Комфорт</label></td>
+                <td>
+                    <p><input name="Люк" type="checkbox">Люк</p>
+                    <p><input name="Кожаный салон" type="checkbox">Кожаный салон</p>
+                    <p><input name="Сабвуфер" type="checkbox">Сабвуфер</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Поиск"></td>
+            </tr>
+        </table>
+    </form>
+    <footer>
+        <p>
+            <font size="1" color="black" face="Arial">Есть вопросы?<br>Нужны советы?<br>Необходима перативная
+                помощь?<br>(067)1112233</font>
+        </p>
+    </footer>
+</body>
+
+</html>
