@@ -1,0 +1,88 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    border: 1px solid #333;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.right {
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: #494949;
+    margin: 15px;
+    border: 1px solid red;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.left {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: #494949;
+    margin: 15px;
+    border: 1px solid red;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.container .right-small {
+    float: right;
+    width: 60px;
+    height: 60px;
+    background-color: #494949;
+    margin: 15px;
+    border: 1px solid red;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.container .left-big {
+    float: left;
+    width: 240px;
+    height: 240px;
+    background-color: #494949;
+    margin: 15px;
+    border: 1px solid red;
+    padding: 0 10px;
+    color: #fff;
+    margin-left: 30%;
+}
+
+.right-cascade {
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: #494949;
+    margin: 15px;
+    border: 1px solid red;
+    padding: 0 10px;
+    color: #fff;
+    margin-right: 30%;
+}
+
+.right-double {
+    float: right;
+}
+
+.container .right-big {
+    float: right;
+    width: 240px;
+    height: 240px;
+    background-color: #494949;
+    margin: 15px;
+    border: 1px solid red;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
