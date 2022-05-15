@@ -1,0 +1,151 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section-first {
+    border: 1px solid #333;
+    margin-bottom: 10px;
+}
+
+.section-first .left {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: #494949;
+    margin: 15px;
+    border: 1px solid red;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.section-first .right {
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: #494949;
+    margin: 15px;
+    border: 1px solid red;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.section-second {
+    border: 1px solid #333;
+    margin-bottom: 10px;
+}
+
+.section-second .left {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: #494949;
+    margin: 15px;
+    border: 1px solid red;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.section-second .right {
+    float: right;
+    width: 60px;
+    height: 60px;
+    background-color: #494949;
+    margin: 15px;
+    border: 1px solid red;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.section-third {
+    border: 1px solid #333;
+    margin-bottom: 10px;
+}
+
+.section-third .left {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: #494949;
+    margin: 15px;
+    border: 1px solid red;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.section-third .right {
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: #494949;
+    margin: 15px;
+    border: 1px solid red;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.section-fourth {
+    border: 1px solid #333;
+    margin-bottom: 10px;
+}
+
+.section-fourth .left-big {
+    float: left;
+    width: 240px;
+    height: 240px;
+    background-color: #494949;
+    margin: 15px;
+    border: 1px solid red;
+    padding: 0 10px;
+    color: #fff;
+    margin-left: 30%;
+}
+
+.section-fourth .right {
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: #494949;
+    margin: 15px;
+    border: 1px solid red;
+    padding: 0 10px;
+    color: #fff;
+    margin-right: 30%;
+}
+
+.section-fifth {
+
+    border: 1px solid #333;
+    margin-bottom: 10px;
+}
+
+.right-double {
+    float: right;
+}
+
+.section-fifth .right {
+    width: 100px;
+    height: 100px;
+    background-color: #494949;
+    margin: 15px;
+    border: 1px solid red;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.section-fifth .right-big {
+    float: right;
+    width: 240px;
+    height: 240px;
+    background-color: #494949;
+    margin: 15px;
+    border: 1px solid red;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
